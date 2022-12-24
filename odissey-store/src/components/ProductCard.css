@@ -1,0 +1,33 @@
+.Image-Header-1
+{
+    background: white;
+     height: 15rem;
+      overflow: hidden;
+       display: flex;
+    justify-content: center;
+     align-items: center;
+      margin-bottom: inherit;
+     }
+    
+     .Image-Header-2{
+      width: 9rem;
+     }
+     .Card-title
+     {
+       text-overflow: ellipsis;
+        overflow: hidden;
+         white-space: nowrap
+      }
+      .Card-item{
+         width: 20px;
+         height: 20px;
+      }
+      #color:hover{
+         background-color: black;
+      }
+      .Image:hover {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(3.5); /* Safari 3-8 */
+            transform: scale(1.2); 
+          }
+      
